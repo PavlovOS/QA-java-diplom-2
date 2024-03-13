@@ -14,7 +14,8 @@ import static org.apache.http.HttpStatus.*;
 import static org.example.Constants.*;
 import static org.example.api.OrderApi.*;
 import static org.example.api.UserApi.*;
-import static org.hamcrest.Matchers.*;
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.greaterThan;
 
 public class GetUserOrdersTests {
     @Before

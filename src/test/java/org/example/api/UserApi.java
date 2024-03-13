@@ -52,12 +52,6 @@ public class UserApi {
                 .statusCode(statusCode);
     }
 
-    @Step("Send POST login to /api/auth/login")
-    public static void sendPostLoginUser(Login login) {
-        given().header(HEADER_TYPE, HEADER_JSON).body(login).post(LOGIN_USER)
-                .then().body("success", equalTo(true)).statusCode(SC_OK);
-    }
-
     @Step("Get response to send POST login to /api/auth/login")
     public static Response responseSendPostLoginUser(Login login) {
         return given()

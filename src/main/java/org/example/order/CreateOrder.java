@@ -8,7 +8,8 @@ import lombok.Setter;
 public class CreateOrder {
     private String[] ingredients;
 
-    public CreateOrder() {}
+    public CreateOrder() {
+    }
 
     public CreateOrder(String[] ingredients) {
         this.ingredients = ingredients;

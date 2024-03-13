@@ -2,7 +2,9 @@ package org.example.api;
 
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
-import org.example.order.*;
+import org.example.order.CreateOrder;
+import org.example.order.CreateOrderResponse;
+import org.example.order.IngredientInformation;
 import org.junit.Assert;
 
 import java.util.List;

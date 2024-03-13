@@ -10,7 +10,8 @@ public class CreateUser {
     private String password;
     private String name;
 
-    public CreateUser() {}
+    public CreateUser() {
+    }
 
     public CreateUser(String email, String password, String name) {
         this.email = email;
